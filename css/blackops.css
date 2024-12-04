@@ -27,7 +27,6 @@ header ul li a:hover {
   color: #ffa500;
 }
 
-/* Layout using Floats */
 #sidebar {
   float: left;
   width: 25%;
@@ -41,7 +40,6 @@ header ul li a:hover {
   padding: 15px;
 }
 
-/* Positioned Elements */
 header {
   position: relative;
   width: 100%;
@@ -53,7 +51,6 @@ main {
   max-width: 800px;
 }
 
-/* Styling for Images and Sections */
 img {
   width: 100%;
   max-width: 560px;
@@ -70,7 +67,6 @@ h1, h2, h3 {
   color: #333;
 }
 
-/* Footer (example of relative positioning) */
 footer {
   position: relative;
   width: 100%;
