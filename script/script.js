@@ -1,12 +1,13 @@
-function initMap() {
-  const bronzeville = { lat: 41.8123, lng: -87.6173 };
-  const map = new google.maps.Map(document.getElementById("map"), {
-    center: bronzeville,
-    zoom: 15,
-  });
-  new google.maps.Marker({
-    position: bronzeville,
-    map: map,
-    title: "Bronzeville",
-  });
-}
+// The location of Uluru
+const position = { lat: -25.344, lng: 131.031 };
+// Request needed libraries.
+//@ts-ignore
+const { Map } = await google.maps.importLibrary("maps");
+const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+// The map, centered at Uluru
+map = new Map(document.getElementById("map"), {
+  zoom: 4,
+  center: position,
+  mapId: "DEMO_MAP_ID",
+});
