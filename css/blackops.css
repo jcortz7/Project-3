@@ -82,3 +82,11 @@ footer {
 iframe {
 	border: none;
 }
+/* Image Styling */
+img {
+  width: 100%;
+  max-width: 100%; /* Make images responsive */
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
